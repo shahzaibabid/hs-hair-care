@@ -1,0 +1,174 @@
+/* ------------------------------------------------------------------------------
+ 	Author: WebThemez
+/* ------------------------------------------------------------------------------
+	Typography
+-------------------------------------------------------------------------------*/
+ 
+
+@import url(http://fonts.googleapis.com/css?family=ABeeZee&subset=latin:300,400,500,600,700); 
+p {
+	font-size: 14px;
+	line-height: 22.4px;
+	color: #6c7279;
+}
+h1 {
+	font-size: 65px;
+	color: #2d3033;
+}
+h2 {
+	font-size: 40px;
+	color: #2d3033;
+}
+h3 {
+	font-size: 28px;
+	color: #2d3033;
+	font-weight: 300;
+}
+h4 {
+	font-size: 22px;
+	color: #2d3033;
+	font-weight: 400;
+}
+h5 {
+	font-size: 14px;
+	color: #2d3033;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.btn {
+	background-color: #2b99e4;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	border: 0;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	display: inline-block;
+	text-transform: uppercase;
+	border: 1px solid #ffffff;
+	margin-top: 20px;
+}
+.btn:hover, .btn:focus {
+	background-color: #d06638;
+	color: #fff;
+}
+.btn-large {
+	padding: 15px 40px;
+	border: none;
+	border: 1px solid #fff;
+	background: transparent;
+}
+#map-overlay {
+    height:400px;
+    margin-top:-405px;
+    background-color: #1f1f1f;
+    padding:40px;
+    color: #fff;
+}
+/* ------------------------------------------------------------------------------
+	Global Styles
+-------------------------------------------------------------------------------*/
+a {
+	color: #e84545;
+}
+a:hover, a:focus {
+	text-decoration: none;
+	-moz-transition: background-color, color, 0.3s;
+	-o-transition: background-color, color, 0.3s;
+	-webkit-transition: background-color, color, 0.3s;
+	transition: background-color, color, 0.3s;
+}
+body {
+	 
+	font-family: "Open Sans", Arial, sans-serif;
+	font-weight: 400;
+	color: #6c7279;
+	background: black;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	list-style: none;
+}
+.section {
+	padding: 100px 0;
+}
+.no-padding {
+	padding: 0;
+}
+.no-gutter [class*=col-] {
+	padding-right: 0;
+	padding-left: 0;
+}
+.space {
+	margin-top: 60px;
+}
+
+
+.banner {
+	
+	background-position: center top;
+	background-repeat: no-repeat;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	min-height: 750px;
+}
+.banner-text {
+	
+	padding-top: 28%;
+	/* display: none; */
+	text-align: left;
+	margin-top: -150px;
+}
+
+.banner-text h1 {
+	color: #d7d7d7;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.banner-text h1 span{
+	color: #f9814d;
+}
+.banner-text p {
+	color: #848484;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 32px;
+	margin-top: 16px;
+	margin-bottom: 80px;
+}
+
+@media only screen and (max-width: 1020px) {
+    #header .logo a {
+    /* padding-top: 29%; */
+    display: inherit;
+    /* color: #fff; */
+}
+#header.fixed .header-content .logo a {
+    padding-top: 10%;
+    /* color: #fff; */
+    text-align: center;
+}
+}
+@media only screen and (max-width: 1020px) {
+.banner{
+	min-height:750px;
+}
+}
+@media only screen and (max-width: 780px) {
+.banner{
+		min-height:450px;
+}
+}
+@media only screen and (max-width: 580px) {
+.banner{
+		min-height: 350px;
+}
+}
